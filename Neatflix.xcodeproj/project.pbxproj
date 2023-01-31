@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE89B8C2988FFC3005C5FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89B8B2988FFC3005C5FEC /* AppDelegate.swift */; };
+		0BE89B8E2988FFC3005C5FEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89B8D2988FFC3005C5FEC /* SceneDelegate.swift */; };
+		0BE89B902988FFC3005C5FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89B8F2988FFC3005C5FEC /* ViewController.swift */; };
+		0BE89B932988FFC3005C5FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE89B912988FFC3005C5FEC /* Main.storyboard */; };
+		0BE89B952988FFC5005C5FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE89B942988FFC5005C5FEC /* Assets.xcassets */; };
+		0BE89B982988FFC5005C5FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE89B962988FFC5005C5FEC /* LaunchScreen.storyboard */; };
+		0BE89BA32988FFC6005C5FEC /* NeatflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89BA22988FFC6005C5FEC /* NeatflixTests.swift */; };
+		0BE89BAD2988FFC6005C5FEC /* NeatflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89BAC2988FFC6005C5FEC /* NeatflixUITests.swift */; };
+		0BE89BAF2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89BAE2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BE89B9F2988FFC6005C5FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BE89B802988FFC3005C5FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BE89B872988FFC3005C5FEC;
+			remoteInfo = Neatflix;
+		};
+		0BE89BA92988FFC6005C5FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BE89B802988FFC3005C5FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BE89B872988FFC3005C5FEC;
+			remoteInfo = Neatflix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE89B882988FFC3005C5FEC /* Neatflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neatflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE89B8B2988FFC3005C5FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BE89B8D2988FFC3005C5FEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0BE89B8F2988FFC3005C5FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BE89B922988FFC3005C5FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BE89B942988FFC5005C5FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BE89B972988FFC5005C5FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BE89B992988FFC5005C5FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE89B9E2988FFC6005C5FEC /* NeatflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeatflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE89BA22988FFC6005C5FEC /* NeatflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeatflixTests.swift; sourceTree = "<group>"; };
+		0BE89BA82988FFC6005C5FEC /* NeatflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeatflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE89BAC2988FFC6005C5FEC /* NeatflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeatflixUITests.swift; sourceTree = "<group>"; };
+		0BE89BAE2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeatflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE89B852988FFC3005C5FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE89B9B2988FFC6005C5FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE89BA52988FFC6005C5FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE89B7F2988FFC3005C5FEC = {
+			isa = PBXGroup;
+			children = (
+				0BE89B8A2988FFC3005C5FEC /* Neatflix */,
+				0BE89BA12988FFC6005C5FEC /* NeatflixTests */,
+				0BE89BAB2988FFC6005C5FEC /* NeatflixUITests */,
+				0BE89B892988FFC3005C5FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BE89B892988FFC3005C5FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BE89B882988FFC3005C5FEC /* Neatflix.app */,
+				0BE89B9E2988FFC6005C5FEC /* NeatflixTests.xctest */,
+				0BE89BA82988FFC6005C5FEC /* NeatflixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BE89B8A2988FFC3005C5FEC /* Neatflix */ = {
+			isa = PBXGroup;
+			children = (
+				0BE89B8B2988FFC3005C5FEC /* AppDelegate.swift */,
+				0BE89B8D2988FFC3005C5FEC /* SceneDelegate.swift */,
+				0BE89B8F2988FFC3005C5FEC /* ViewController.swift */,
+				0BE89B912988FFC3005C5FEC /* Main.storyboard */,
+				0BE89B942988FFC5005C5FEC /* Assets.xcassets */,
+				0BE89B962988FFC5005C5FEC /* LaunchScreen.storyboard */,
+				0BE89B992988FFC5005C5FEC /* Info.plist */,
+			);
+			path = Neatflix;
+			sourceTree = "<group>";
+		};
+		0BE89BA12988FFC6005C5FEC /* NeatflixTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BE89BA22988FFC6005C5FEC /* NeatflixTests.swift */,
+			);
+			path = NeatflixTests;
+			sourceTree = "<group>";
+		};
+		0BE89BAB2988FFC6005C5FEC /* NeatflixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BE89BAC2988FFC6005C5FEC /* NeatflixUITests.swift */,
+				0BE89BAE2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift */,
+			);
+			path = NeatflixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BE89B872988FFC3005C5FEC /* Neatflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE89BB22988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "Neatflix" */;
+			buildPhases = (
+				0BE89B842988FFC3005C5FEC /* Sources */,
+				0BE89B852988FFC3005C5FEC /* Frameworks */,
+				0BE89B862988FFC3005C5FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neatflix;
+			productName = Neatflix;
+			productReference = 0BE89B882988FFC3005C5FEC /* Neatflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BE89B9D2988FFC6005C5FEC /* NeatflixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE89BB52988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "NeatflixTests" */;
+			buildPhases = (
+				0BE89B9A2988FFC6005C5FEC /* Sources */,
+				0BE89B9B2988FFC6005C5FEC /* Frameworks */,
+				0BE89B9C2988FFC6005C5FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BE89BA02988FFC6005C5FEC /* PBXTargetDependency */,
+			);
+			name = NeatflixTests;
+			productName = NeatflixTests;
+			productReference = 0BE89B9E2988FFC6005C5FEC /* NeatflixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BE89BA72988FFC6005C5FEC /* NeatflixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE89BB82988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "NeatflixUITests" */;
+			buildPhases = (
+				0BE89BA42988FFC6005C5FEC /* Sources */,
+				0BE89BA52988FFC6005C5FEC /* Frameworks */,
+				0BE89BA62988FFC6005C5FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BE89BAA2988FFC6005C5FEC /* PBXTargetDependency */,
+			);
+			name = NeatflixUITests;
+			productName = NeatflixUITests;
+			productReference = 0BE89BA82988FFC6005C5FEC /* NeatflixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BE89B802988FFC3005C5FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0BE89B872988FFC3005C5FEC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0BE89B9D2988FFC6005C5FEC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0BE89B872988FFC3005C5FEC;
+					};
+					0BE89BA72988FFC6005C5FEC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0BE89B872988FFC3005C5FEC;
+					};
+				};
+			};
+			buildConfigurationList = 0BE89B832988FFC3005C5FEC /* Build configuration list for PBXProject "Neatflix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BE89B7F2988FFC3005C5FEC;
+			productRefGroup = 0BE89B892988FFC3005C5FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BE89B872988FFC3005C5FEC /* Neatflix */,
+				0BE89B9D2988FFC6005C5FEC /* NeatflixTests */,
+				0BE89BA72988FFC6005C5FEC /* NeatflixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BE89B862988FFC3005C5FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE89B982988FFC5005C5FEC /* LaunchScreen.storyboard in Resources */,
+				0BE89B952988FFC5005C5FEC /* Assets.xcassets in Resources */,
+				0BE89B932988FFC3005C5FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE89B9C2988FFC6005C5FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE89BA62988FFC6005C5FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BE89B842988FFC3005C5FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE89B902988FFC3005C5FEC /* ViewController.swift in Sources */,
+				0BE89B8C2988FFC3005C5FEC /* AppDelegate.swift in Sources */,
+				0BE89B8E2988FFC3005C5FEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE89B9A2988FFC6005C5FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE89BA32988FFC6005C5FEC /* NeatflixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE89BA42988FFC6005C5FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE89BAF2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift in Sources */,
+				0BE89BAD2988FFC6005C5FEC /* NeatflixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BE89BA02988FFC6005C5FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BE89B872988FFC3005C5FEC /* Neatflix */;
+			targetProxy = 0BE89B9F2988FFC6005C5FEC /* PBXContainerItemProxy */;
+		};
+		0BE89BAA2988FFC6005C5FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BE89B872988FFC3005C5FEC /* Neatflix */;
+			targetProxy = 0BE89BA92988FFC6005C5FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BE89B912988FFC3005C5FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE89B922988FFC3005C5FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BE89B962988FFC5005C5FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE89B972988FFC5005C5FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BE89BB02988FFC6005C5FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BE89BB12988FFC6005C5FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BE89BB32988FFC6005C5FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RR73CT43V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neatflix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Neatflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BE89BB42988FFC6005C5FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RR73CT43V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neatflix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Neatflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BE89BB62988FFC6005C5FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RR73CT43V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NeatflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neatflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neatflix";
+			};
+			name = Debug;
+		};
+		0BE89BB72988FFC6005C5FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RR73CT43V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NeatflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neatflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neatflix";
+			};
+			name = Release;
+		};
+		0BE89BB92988FFC6005C5FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RR73CT43V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NeatflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neatflix;
+			};
+			name = Debug;
+		};
+		0BE89BBA2988FFC6005C5FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RR73CT43V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NeatflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neatflix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BE89B832988FFC3005C5FEC /* Build configuration list for PBXProject "Neatflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE89BB02988FFC6005C5FEC /* Debug */,
+				0BE89BB12988FFC6005C5FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE89BB22988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "Neatflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE89BB32988FFC6005C5FEC /* Debug */,
+				0BE89BB42988FFC6005C5FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE89BB52988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "NeatflixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE89BB62988FFC6005C5FEC /* Debug */,
+				0BE89BB72988FFC6005C5FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE89BB82988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "NeatflixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE89BB92988FFC6005C5FEC /* Debug */,
+				0BE89BBA2988FFC6005C5FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BE89B802988FFC3005C5FEC /* Project object */;
+}
