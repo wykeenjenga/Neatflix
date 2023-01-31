@@ -16,6 +16,9 @@
 		0BE89BA32988FFC6005C5FEC /* NeatflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89BA22988FFC6005C5FEC /* NeatflixTests.swift */; };
 		0BE89BAD2988FFC6005C5FEC /* NeatflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89BAC2988FFC6005C5FEC /* NeatflixUITests.swift */; };
 		0BE89BAF2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE89BAE2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift */; };
+		1EADC8C2DB480729B1CD87D3 /* Pods_NeatflixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F8263750E0F766CF936FE2 /* Pods_NeatflixTests.framework */; };
+		9DAC5E2FAEB0EA0EB6B4DFEA /* Pods_Neatflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE8A110E4962881B2DCBC58 /* Pods_Neatflix.framework */; };
+		E23C7ED6F3649434C561F22E /* Pods_Neatflix_NeatflixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AC47CAA051262199F2353F /* Pods_Neatflix_NeatflixUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		0BE89BA82988FFC6005C5FEC /* NeatflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeatflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE89BAC2988FFC6005C5FEC /* NeatflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeatflixUITests.swift; sourceTree = "<group>"; };
 		0BE89BAE2988FFC6005C5FEC /* NeatflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeatflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26AC47CAA051262199F2353F /* Pods_Neatflix_NeatflixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neatflix_NeatflixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC40D55E46542FFC01EEBE4 /* Pods-Neatflix-NeatflixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neatflix-NeatflixUITests.release.xcconfig"; path = "Target Support Files/Pods-Neatflix-NeatflixUITests/Pods-Neatflix-NeatflixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44F8263750E0F766CF936FE2 /* Pods_NeatflixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeatflixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE8A110E4962881B2DCBC58 /* Pods_Neatflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neatflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8E23102CA61D93C4D64650 /* Pods-Neatflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neatflix.release.xcconfig"; path = "Target Support Files/Pods-Neatflix/Pods-Neatflix.release.xcconfig"; sourceTree = "<group>"; };
+		C1A7D8ECA74E05429EB0E5F3 /* Pods-NeatflixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeatflixTests.debug.xcconfig"; path = "Target Support Files/Pods-NeatflixTests/Pods-NeatflixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDBB401646FC08CDB7A3543D /* Pods-NeatflixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeatflixTests.release.xcconfig"; path = "Target Support Files/Pods-NeatflixTests/Pods-NeatflixTests.release.xcconfig"; sourceTree = "<group>"; };
+		EAB8435D6B7CD76EBD0425F4 /* Pods-Neatflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neatflix.debug.xcconfig"; path = "Target Support Files/Pods-Neatflix/Pods-Neatflix.debug.xcconfig"; sourceTree = "<group>"; };
+		FBFB274CD5DD2A9264E54645 /* Pods-Neatflix-NeatflixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neatflix-NeatflixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Neatflix-NeatflixUITests/Pods-Neatflix-NeatflixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DAC5E2FAEB0EA0EB6B4DFEA /* Pods_Neatflix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EADC8C2DB480729B1CD87D3 /* Pods_NeatflixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23C7ED6F3649434C561F22E /* Pods_Neatflix_NeatflixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0BE89BA12988FFC6005C5FEC /* NeatflixTests */,
 				0BE89BAB2988FFC6005C5FEC /* NeatflixUITests */,
 				0BE89B892988FFC3005C5FEC /* Products */,
+				648282F2B1BC519B6A43DE42 /* Pods */,
+				48BCB7EBA132EC9A616B49BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +116,11 @@
 		0BE89B8A2988FFC3005C5FEC /* Neatflix */ = {
 			isa = PBXGroup;
 			children = (
-				0BE89B8B2988FFC3005C5FEC /* AppDelegate.swift */,
-				0BE89B8D2988FFC3005C5FEC /* SceneDelegate.swift */,
-				0BE89B8F2988FFC3005C5FEC /* ViewController.swift */,
-				0BE89B912988FFC3005C5FEC /* Main.storyboard */,
-				0BE89B942988FFC5005C5FEC /* Assets.xcassets */,
-				0BE89B962988FFC5005C5FEC /* LaunchScreen.storyboard */,
+				0BE89BBB2989010D005C5FEC /* AppDelegate */,
+				0BE89BBD29890132005C5FEC /* PresentationModules */,
+				0BE89BBC2989011A005C5FEC /* Storyboards */,
 				0BE89B992988FFC5005C5FEC /* Info.plist */,
+				0BE89B942988FFC5005C5FEC /* Assets.xcassets */,
 			);
 			path = Neatflix;
 			sourceTree = "<group>";
@@ -127,6 +142,55 @@
 			path = NeatflixUITests;
 			sourceTree = "<group>";
 		};
+		0BE89BBB2989010D005C5FEC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0BE89B8B2988FFC3005C5FEC /* AppDelegate.swift */,
+				0BE89B8D2988FFC3005C5FEC /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0BE89BBC2989011A005C5FEC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0BE89B912988FFC3005C5FEC /* Main.storyboard */,
+				0BE89B962988FFC5005C5FEC /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		0BE89BBD29890132005C5FEC /* PresentationModules */ = {
+			isa = PBXGroup;
+			children = (
+				0BE89B8F2988FFC3005C5FEC /* ViewController.swift */,
+			);
+			path = PresentationModules;
+			sourceTree = "<group>";
+		};
+		48BCB7EBA132EC9A616B49BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8A110E4962881B2DCBC58 /* Pods_Neatflix.framework */,
+				26AC47CAA051262199F2353F /* Pods_Neatflix_NeatflixUITests.framework */,
+				44F8263750E0F766CF936FE2 /* Pods_NeatflixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		648282F2B1BC519B6A43DE42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8435D6B7CD76EBD0425F4 /* Pods-Neatflix.debug.xcconfig */,
+				7F8E23102CA61D93C4D64650 /* Pods-Neatflix.release.xcconfig */,
+				FBFB274CD5DD2A9264E54645 /* Pods-Neatflix-NeatflixUITests.debug.xcconfig */,
+				3EC40D55E46542FFC01EEBE4 /* Pods-Neatflix-NeatflixUITests.release.xcconfig */,
+				C1A7D8ECA74E05429EB0E5F3 /* Pods-NeatflixTests.debug.xcconfig */,
+				DDBB401646FC08CDB7A3543D /* Pods-NeatflixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BE89BB22988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "Neatflix" */;
 			buildPhases = (
+				48D0BEDC811CEA8043EA5A00 /* [CP] Check Pods Manifest.lock */,
 				0BE89B842988FFC3005C5FEC /* Sources */,
 				0BE89B852988FFC3005C5FEC /* Frameworks */,
 				0BE89B862988FFC3005C5FEC /* Resources */,
+				5F54319B007BD7148EB76E94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BE89BB52988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "NeatflixTests" */;
 			buildPhases = (
+				0E94AE20C8F4C7488BB6386E /* [CP] Check Pods Manifest.lock */,
 				0BE89B9A2988FFC6005C5FEC /* Sources */,
 				0BE89B9B2988FFC6005C5FEC /* Frameworks */,
 				0BE89B9C2988FFC6005C5FEC /* Resources */,
@@ -169,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BE89BB82988FFC6005C5FEC /* Build configuration list for PBXNativeTarget "NeatflixUITests" */;
 			buildPhases = (
+				DF7614E58F00F5649A3F164A /* [CP] Check Pods Manifest.lock */,
 				0BE89BA42988FFC6005C5FEC /* Sources */,
 				0BE89BA52988FFC6005C5FEC /* Frameworks */,
 				0BE89BA62988FFC6005C5FEC /* Resources */,
+				3F4CA804132EF995553B6C9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +321,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E94AE20C8F4C7488BB6386E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeatflixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4CA804132EF995553B6C9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neatflix-NeatflixUITests/Pods-Neatflix-NeatflixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neatflix-NeatflixUITests/Pods-Neatflix-NeatflixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neatflix-NeatflixUITests/Pods-Neatflix-NeatflixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D0BEDC811CEA8043EA5A00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neatflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F54319B007BD7148EB76E94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neatflix/Pods-Neatflix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neatflix/Pods-Neatflix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neatflix/Pods-Neatflix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7614E58F00F5649A3F164A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neatflix-NeatflixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BE89B842988FFC3005C5FEC /* Sources */ = {
@@ -432,6 +604,7 @@
 		};
 		0BE89BB32988FFC6005C5FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB8435D6B7CD76EBD0425F4 /* Pods-Neatflix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +633,7 @@
 		};
 		0BE89BB42988FFC6005C5FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8E23102CA61D93C4D64650 /* Pods-Neatflix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +662,7 @@
 		};
 		0BE89BB62988FFC6005C5FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A7D8ECA74E05429EB0E5F3 /* Pods-NeatflixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +683,7 @@
 		};
 		0BE89BB72988FFC6005C5FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBB401646FC08CDB7A3543D /* Pods-NeatflixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +704,7 @@
 		};
 		0BE89BB92988FFC6005C5FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFB274CD5DD2A9264E54645 /* Pods-Neatflix-NeatflixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +723,7 @@
 		};
 		0BE89BBA2988FFC6005C5FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC40D55E46542FFC01EEBE4 /* Pods-Neatflix-NeatflixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
