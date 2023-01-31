@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +11,76 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Neatflix" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d9V-Ld-pPG">
+                                <rect key="frame" x="0.0" y="59" width="393" height="41"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogh-2l-0p1">
+                                        <rect key="frame" x="8" y="7" width="50" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="OVU-gP-SSh"/>
+                                            <constraint firstAttribute="width" constant="50" id="tem-DT-Is5"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="person"/>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="neatflix" translatesAutoresizingMaskIntoConstraints="NO" id="sSc-MP-JoY">
+                                        <rect key="frame" x="127" y="0.0" width="139" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="139" id="1K8-il-wyL"/>
+                                            <constraint firstAttribute="height" constant="41" id="JXC-4h-EsR"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39M-mV-uGl">
+                                        <rect key="frame" x="353" y="7" width="32" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="32" id="qgC-9h-dHx"/>
+                                            <constraint firstAttribute="height" constant="28" id="tfo-L5-jWk"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="magnifyingglass" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="31" scale="large"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="sSc-MP-JoY" secondAttribute="bottom" id="6yP-T5-cYl"/>
+                                    <constraint firstAttribute="height" constant="41" id="FpQ-aH-bdU"/>
+                                    <constraint firstItem="Ogh-2l-0p1" firstAttribute="top" secondItem="d9V-Ld-pPG" secondAttribute="top" constant="7" id="Kbc-0v-zgx"/>
+                                    <constraint firstItem="39M-mV-uGl" firstAttribute="top" secondItem="d9V-Ld-pPG" secondAttribute="top" constant="7" id="KtX-QI-A0o"/>
+                                    <constraint firstAttribute="trailing" secondItem="39M-mV-uGl" secondAttribute="trailing" constant="8" id="Ngq-cB-34h"/>
+                                    <constraint firstItem="sSc-MP-JoY" firstAttribute="centerX" secondItem="d9V-Ld-pPG" secondAttribute="centerX" id="mfi-8k-SKd"/>
+                                    <constraint firstItem="sSc-MP-JoY" firstAttribute="top" secondItem="d9V-Ld-pPG" secondAttribute="top" id="moM-zT-4oc"/>
+                                    <constraint firstItem="Ogh-2l-0p1" firstAttribute="leading" secondItem="d9V-Ld-pPG" secondAttribute="leading" constant="8" id="qGE-76-17W"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="d9V-Ld-pPG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7L4-yV-VaR"/>
+                            <constraint firstItem="d9V-Ld-pPG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="FmY-hB-8ip"/>
+                            <constraint firstItem="d9V-Ld-pPG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gz6-GO-moF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="93.89312977099236" y="4.9295774647887329"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="neatflix" width="234.66667175292969" height="88"/>
+        <image name="person" width="34" height="34"/>
+        <namedColor name="AccentColor">
+            <color red="0.094117647058823528" green="0.054901960784313725" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
