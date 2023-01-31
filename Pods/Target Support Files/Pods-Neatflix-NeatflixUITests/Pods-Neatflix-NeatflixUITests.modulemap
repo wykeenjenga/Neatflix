@@ -1,0 +1,6 @@
+framework module Pods_Neatflix_NeatflixUITests {
+  umbrella header "Pods-Neatflix-NeatflixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
